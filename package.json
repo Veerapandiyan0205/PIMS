@@ -1,0 +1,42 @@
+{
+  "name": "corerestapi",
+  "version": "1.0.0",
+  "description": "COReRESTAPI",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "set PORT=5000&&set NODENV=PROD&&node index.js",
+    "gen:apidoc": "swagger-inline --base './swaggerBase.yaml' --out ./swaggerProjectDocumentation.json ./lib/**/*.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "activedirectory": "^0.7.2",
+    "ad": "^0.3.2",
+    "async": "^2.6.4",
+    "audit": "0.0.6",
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.4",
+    "csvtojson": "^2.0.10",
+    "express": "^4.16.4",
+    "fs-extra": "^8.1.0",
+    "html-pdf": "^3.0.1",
+    "joi": "^14.0.1",
+    "jsonwebtoken": "^8.3.0",
+    "md5": "^2.2.1",
+    "moment": "^2.29.3",
+    "morgan": "^1.9.1",
+    "move-file": "^2.0.0",
+    "msnodesqlv8": "^2.5.0",
+    "mssql": "^8.1.2",
+    "node-cron": "^2.0.3",
+    "node-datetime": "^2.1.2",
+    "node-schedule": "^1.3.2",
+    "phantom-html-to-pdf": "^0.5.6",
+    "rotating-file-stream": "^1.3.9",
+    "uid-generator": "^1.0.0"
+  },
+  "devDependencies": {
+    "swagger-inline": "^6.0.0"
+  }
+}
