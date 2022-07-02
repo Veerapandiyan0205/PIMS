@@ -15,7 +15,7 @@
     "ad": "^0.3.2",
     "async": "^2.6.4",
     "audit": "0.0.6",
-    "body-parser": "^1.18.3",
+    "body-parser": "^1.20.0",
     "cors": "^2.8.4",
     "csvtojson": "^2.0.10",
     "express": "^4.16.4",
